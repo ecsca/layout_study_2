@@ -7,10 +7,45 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.ecsca.layoutstudy.MainActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="I have padding 10dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="I have margin 10dp"
+        android:layout_margin="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="150dp - 150dp, margin 30dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:src='@drawable/dizziness'
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150dp - 150dp, padding 30dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="30dp"
+        android:src="@drawable/dizziness"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground" />
+
 </LinearLayout>
